@@ -1,0 +1,1231 @@
+[2023-01-15 18:08:45] Start app 
+[2023-01-15 18:08:45] init db models 
+[2023-01-15 18:08:45] prepare to get data from url https://purelogic.ru
+[2023-01-15 18:08:45] get html tree from url https://purelogic.ru
+[2023-01-15 18:08:47] start parsing data 
+[2023-01-15 18:08:47] find category names from html tree https://purelogic.ru
+[2023-01-15 18:08:47] create objects to model <class 'db.models.Category'>
+[2023-01-15 18:09:29] Start app 
+[2023-01-15 18:09:29] init db models 
+[2023-01-15 18:09:29] prepare to get data from url https://purelogic.ru
+[2023-01-15 18:09:30] get html tree from url https://purelogic.ru
+[2023-01-15 18:09:31] start parsing data 
+[2023-01-15 18:09:31] find category names from html tree https://purelogic.ru
+[2023-01-15 18:09:31] create objects to model <class 'db.models.Category'>
+[2023-01-15 18:09:31] update Category database model <class 'parse.scrappers.PlScrapper'>, parser_tool=<class 'parse.parsers.PlCategoryParser'>, parser=<class 'bs4.BeautifulSoup'>, updater_tool=<class 'parse.db_updater.PlCategoryUpdater'>, model=<class 'db.models.Category'>, parent_model=<class 'db.models.Category'>
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/elektroprivod/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/osnastka/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/pnevmatika/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/elektronika/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/elektrotehnika/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/peredachi/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/mehanika/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/mehatronika/
+[2023-01-15 18:09:33] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/elektronika/drayvery_shagovyh_dvigateley/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/elektroprivod/asinhronnye_elektrodvigateli_air/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/elektronika/servodrayvery/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/elektronika/sistemy_thc_i_omicheskie_datchiki_dlya_plazmennoy_rezki/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/elektroprivod/servodvigateli/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/elektroprivod/shagovye_dvigateli/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/peredachi/gayki_dlya_trapeceidalnyh_vintov/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/elektroprivod/shagovye_servodvigateli_shd_s_enkoderom/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/elektroprivod/aksessuary_dlya_dvigateley/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ruhttps://www.pumotix.ru/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ruhttps://purelogic.ru/catalog/24517/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/profilnye_napravlyayuschie/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ruhttps://purelogic.ru/catalog/24491/
+[2023-01-15 18:09:37] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/roliki_opornye_i_transportnye/
+[2023-01-15 18:09:38] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/cilindricheskie_relsy/
+[2023-01-15 18:09:38] get html tree from url https://purelogic.ru/catalog/elektroprivod/reduktory/
+[2023-01-15 18:09:38] get html tree from url https://purelogic.ru/catalog/peredachi/gofrozaschita_dlya_vintov_shvp/
+[2023-01-15 18:09:38] get html tree from url https://purelogic.ru/catalog/peredachi/zubchatye_remni_i_aksessuary/
+[2023-01-15 18:09:38] get html tree from url https://purelogic.ru/catalog/elektronika/kontrollery_dvizheniya/
+[2023-01-15 18:09:38] get html tree from url https://purelogic.ru/catalog/elektronika/nabory_elektroniki/
+[2023-01-15 18:09:38] get html tree from url https://purelogic.ru/catalog/peredachi/opory_hodovogo_vinta/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/mehanika/kabel-kanaly/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/elektronika/preobrazovateli_napryazheniya/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/elektronika/platy_kommutacii/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/rashodnye_materialy/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/elektronika/bloki_pitaniya_i_aksessuary/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/ogranichiteli_i_pnevmaticheskie_zazhimy/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/elektronika/moduli_dlya_arduino/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/peredachi/aksessuary_i_remkomplekty_dlya_gaek_shvp/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/elektronika/transformatory_silovye/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/elektroprivod/nabory_elektroprivoda/
+[2023-01-15 18:09:39] get html tree from url https://purelogic.ru/catalog/peredachi/kardannye_peredachi/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/bloki_smazki_i_pylezaschity_zaglushki/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektroprivod/beskollektornye_bldc_motor-reduktory/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/peredachi/trapeceidalnye_vinty/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/programmiruemye_kontrollery_plc_i_hmi/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/stabilizatory_napryazheniya/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/bloki_i_stoyki_upravleniya_dlya_stankov_s_chpu/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektroprivod/indukcionnye_elektrodvigateli/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/komplektuyuschie_dlya_sistem_smazki/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/peredachi/reyki_zubchatye/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/ustroystva_podachi_smazki/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektroprivod/shagovye_motor-reduktory/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/moduli_asu_tp/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/perehodniki_i_porty_vvodavyvoda/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/peredachi/shesterni_dlya_zubchatyh_reek/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektroprivod/privody_v_sbore/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektroprivod/indukcionnye_ac_elektrodvigateli_i_motor-reduktory/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/pulty_dlya_stankov_s_chpu/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/peredachi/chervyachnye_peredachi_zubchato-vintovye/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/derzhateli_polirovannyh_valov/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/chastotnye_preobrazovateli_i_aksessuary/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/opornye_moduli_i_lineynye_podshipniki/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/kontrollery_chpu/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/prochie_drayvery_elektrodvigateley/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/drayvery_beskolektornyh_bldc_dvigateley/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektroprivod/kollektornye_dc_elektrodvigateli/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektroprivod/kollektornye_dc_elektrodvigateli_i_motor-reduktory/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/peredachi/gayki_dlya_vintov_shvp/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/shlicevye_napravlyayuschie_vtulki_opory/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/gofrozaschita_dlya_relsovyh_napravlyayuschih/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektronika/periferiynye_moduli_sistem_s_chpu/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/peredachi/vinty_shvp/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektroprivod/beskollektornye_elektrodvigateli_bldc/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/peredachi/shvp_gotovye_obrabotannye/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/karetki_dlya_profilnyh_napravlyayuschih/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/elektroprivod/chervyachnye_reduktory_i_motor-reduktory/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/peredachi/moduli_krepleniya_i_derzhateli_gaek_shvp/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/komplektuyushchie-dlya-plazmennoy-rezki/
+[2023-01-15 18:09:40] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/apparaty_lazernoy_ochistki_metalla/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/dymouloviteli_dlya_lazernyh_stankov/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/poluprovodnikovye_lazernye_moduli/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/mehanika/shponki/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/istochniki_plazmennoy_rezki/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/shpindeli_remennoprivodnye/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_sozh_emulsionnogo_tipa/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/elektronika_dlya_plazmennoy_rezki/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_apparatov_plazmennoy_rezki/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/mehanika/alyuminievye_zagotovki/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/peredachi/cepnye_peredachi/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/mehanika/komplektuyuschie_dlya_alyuminievogo_profilya/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/gazovye_rukava_i_armatura/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/elektrotehnika/datchiki_i_koncevye_vyklyuchateli/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/peredachi/shkivy_dlya_remney/
+[2023-01-15 18:09:41] get html tree from url https://purelogic.ru/catalog/elektrotehnika/enkodery_dlya_asu_tp_i_chpu/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/mehanika/mufty/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/elektrotehnika/vyklyuchateli_knopki_tumblery/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_gazovoy_rezki/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/zaschitnye_ochki_i_stkla_ot_lazernogo_izlucheniya/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/sistemy_ohlazhdeniya_chillery/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy-avtomaticheskoy-smeny-instrumenta/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/mehanika/podshipniki_kacheniya_sfericheskie_sharovye/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/rashodnye_materialy_i_sredstva_po_uhodu/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/elektronika_dlya_volokonnoy_lazernoy_rezki/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/elektrotehnika/cilindricheskie_elektromagnity/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/mehanika/alyuminievyy_profil_konstrukcionnyy/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_sozh_s_maslyanym_tumanom/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/lazernye_istochniki_volokonnyetvrdotelnye/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/pnevmatika/fitingi_i_pnevmotrubki/
+[2023-01-15 18:09:42] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/sistemy_ohlazhdeniya_so2_chillery/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/mehanika/metizy/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/mehanika/gofrozaschita/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/lazernye_golovki/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/practicam/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_i_komplektuyuschie_dlya_lazernyh_so2_stankov/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/aksessuary_i_zapchasti_dlya_shpindeley/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_elektroerozionnoy_rezki/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/shpindeli/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/mehanika/promyshlennaya_furnitura/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/gazovye_rezaki_derzhateli_sistemy_avtopodzhiga/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/elektrotehnika/opticheskie_lineyki_i_displei/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/cangovye_patrony_i_aksessuary/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rabochie_stoly_dlya_co2_lazerov/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/shpindelnye_nabory/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_ohlazhdeniya_shpindeley/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/elektrotehnika/razemy_soedinitelnye/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_volokonnyh_lazerov/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/lazernye_trubki/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/frezy/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/elektrotehnika/kabeli-metrazh/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/elektrotehnika/kabeli-gotovye/
+[2023-01-15 18:09:43] get html tree from url https://purelogic.ru/catalog/elektrotehnika/plastikovyy_profil_dlya_pechatnyh_plat/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/osnastka_dlya_fiksacii_zagotovok/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/sheetcam/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/cangi_i_gayki_dlya_shpindeley/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/polisharnirnaya_armatura_dlya_podachi_sozh/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/gravery/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/tokovye_transformatory_i_shunty/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_aspiracii_pyleudaleniya/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/osnastka/zadnie_centry_dlya_tokarnyh_stankov/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/filtroventilyacionnye_ustanovki_fvu/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/3d-printery_i_3d-ruchki/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/promyshlennaya_mebel_dlya_stankov_s_chpu/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/rashodnye_materialy_dlya_3d-printerov/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/mehatronika/moduli_peremescheniya_po_zubchatoy_reyke/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/elektricheskie_ventilyatory_i_aksessuary/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/promyshlennye_klaviatury1/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/svetosignalnoe_oborudovanie/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/pedali_dzhoystiki_i_pulty/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/osnastka/izmeritelnyy_instrument/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/tverdotelnye_rele_i_aksessuary/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/mehatronika/povorotnye-osi-i-naklonno-povorotnye-stoly/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/osnastka/tokarnye_plastiny/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/mehatronika/moduli_vraschayuscheysya_gayki/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/lineynye_solenoidy/
+[2023-01-15 18:09:44] get html tree from url https://purelogic.ru/catalog/mehatronika/manipulyatory/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/tormoznye_rezistory/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/3d_modeli_dlya_chpu/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/osnastka/payalnye_stancii_i_aksessuary/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/komplekty_aspiracii_pyleudaleniya/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/osnastka/aksessuary_dlya_izmeritelnogo_instrumenta/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/osnastka/derzhateli_nozhey_dlya_plotterov/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/mehatronika/lineynye_aktuatory/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/osnastka/zadnie_babki/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/lazernye_volokonnye_stanki_s_chpu/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/stanki-konstruktory_s_chpu1/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/kompaktnye_stanki_termicheskoy_rezki/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/osnastka/sverlilnye_patrony/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/filtry_podavleniya_emp/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/pnevmatika/bloki_podgotovki_vozduha/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/mehatronika/aksessuary_dlya_moduley_lineynogo_peremescheniya/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/osnastka/koordinatnye_i_povorotnye_stoly/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/komplektuyuschie_dlya_3d-printerov/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/mehatronika/nabory_peremescheniy/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/osnastka/elektromagnitnye_stoly/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/plazmennye_stanki_s_chpu/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/frezernye_stanki_s_chpu/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/mini-stanki_i_aksessuary/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/osnastka/nozhi_dlya_rezhuschih_plotterov/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/aksessuary_dlya_stankov_s_chpu/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/osnastka/privodnye_golovki_stankov/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/lazernye_co2_stanki_s_chpu/
+[2023-01-15 18:09:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/stanki_dlya_zatochki_metchikov_frez_sverl/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/osnastka/tokarnye_derzhavki/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/osnastka/delitelnye_golovki/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/osnastka/zazhimnye_i_tokarnye_patrony/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/osnastka/konusy_morze_i_aksessuary/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/gravery_i_markiratory_s_chpu/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/rezbonareznye_stanki_i_aksessuary/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/mehatronika/moduli_lineynogo_peremescheniya/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/pnevmatika/masloraspredeliteli_dlya_pnevmatiki/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/listogibochnye_stanki/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/osnastka/ruchnye_gravery_i_aksessuary/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/pnevmatika/pnevmaticheskie_klapany/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/osnastka/stanochnyy_izmeritelnyy_instrument/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/pnevmatika/pnevmocilindry_i_capfy/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/osnastka/tiski_lekalnye_sverlilnye/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/pnevmatika/pnevmoraspredeliteli_i_pnevmaticheskie_pedali/
+[2023-01-15 18:09:46] get html tree from url https://purelogic.ru/catalog/pnevmatika/filtry_manometry_regulyatory_davleniya/
+[2023-01-15 18:28:35] Start app 
+[2023-01-15 18:28:35] init db models 
+[2023-01-15 18:28:35] prepare to get data from url https://purelogic.ru
+[2023-01-15 18:28:35] get html tree from url https://purelogic.ru
+[2023-01-15 18:28:36] start parsing data 
+[2023-01-15 18:28:37] find category names from html tree https://purelogic.ru
+[2023-01-15 18:28:37] create objects to model <class 'db.models.Category'>
+[2023-01-15 18:28:37] update Category database model <class 'parse.scrappers.PlScrapper'>, parser_tool=<class 'parse.parsers.PlCategoryParser'>, parser=<class 'bs4.BeautifulSoup'>, updater_tool=<class 'parse.db_updater.PlCategoryUpdater'>, model=<class 'db.models.Category'>, parent_model=<class 'db.models.Category'>
+[2023-01-15 18:28:38] get html tree from url https://purelogic.ru/catalog/elektrotehnika/
+[2023-01-15 18:28:38] get html tree from url https://purelogic.ru/catalog/mehanika/
+[2023-01-15 18:28:38] get html tree from url https://purelogic.ru/catalog/pnevmatika/
+[2023-01-15 18:28:38] get html tree from url https://purelogic.ru/catalog/osnastka/
+[2023-01-15 18:28:38] get html tree from url https://purelogic.ru/catalog/mehatronika/
+[2023-01-15 18:28:38] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/
+[2023-01-15 18:28:38] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/
+[2023-01-15 18:28:38] get html tree from url https://purelogic.ru/catalog/elektroprivod/
+[2023-01-15 18:28:39] get html tree from url https://purelogic.ru/catalog/peredachi/
+[2023-01-15 18:28:39] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/
+[2023-01-15 18:28:39] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/
+[2023-01-15 18:28:39] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/
+[2023-01-15 18:28:39] get html tree from url https://purelogic.ru/catalog/elektronika/
+[2023-01-15 18:28:41] create objects to model <class 'db.models.SubCategory'>
+[2023-01-15 18:28:41] create objects to model <class 'db.models.SubCategory'>
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ru/catalog/elektronika/perehodniki_i_porty_vvodavyvoda/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ru/catalog/elektronika/sistemy_thc_i_omicheskie_datchiki_dlya_plazmennoy_rezki/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ruhttps://www.pumotix.ru/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ruhttps://purelogic.ru/catalog/24517/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ruhttps://purelogic.ru/catalog/24491/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ru/catalog/elektronika/nabory_elektroniki/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ru/catalog/elektroprivod/privody_v_sbore/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ru/catalog/elektronika/transformatory_silovye/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ru/catalog/elektronika/drayvery_beskolektornyh_bldc_dvigateley/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/opornye_moduli_i_lineynye_podshipniki/
+[2023-01-15 18:28:42] get html tree from url https://purelogic.ru/catalog/elektroprivod/beskollektornye_elektrodvigateli_bldc/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/profilnye_napravlyayuschie/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/bloki_i_stoyki_upravleniya_dlya_stankov_s_chpu/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/asinhronnye_elektrodvigateli_air/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/kontrollery_chpu/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/servodrayvery/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/shagovye_servodvigateli_shd_s_enkoderom/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/chastotnye_preobrazovateli_i_aksessuary/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/nabory_elektroprivoda/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/moduli_dlya_arduino/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/drayvery_shagovyh_dvigateley/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/bloki_pitaniya_i_aksessuary/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/kontrollery_dvizheniya/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/ustroystva_podachi_smazki/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/karetki_dlya_profilnyh_napravlyayuschih/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/prochie_drayvery_elektrodvigateley/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/platy_kommutacii/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/moduli_asu_tp/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/stabilizatory_napryazheniya/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/reyki_zubchatye/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/shagovye_dvigateli/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/indukcionnye_elektrodvigateli/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/derzhateli_polirovannyh_valov/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/indukcionnye_ac_elektrodvigateli_i_motor-reduktory/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/beskollektornye_bldc_motor-reduktory/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/moduli_krepleniya_i_derzhateli_gaek_shvp/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/kollektornye_dc_elektrodvigateli/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/aksessuary_dlya_dvigateley/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/preobrazovateli_napryazheniya/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/gayki_dlya_trapeceidalnyh_vintov/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/periferiynye_moduli_sistem_s_chpu/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/cilindricheskie_relsy/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/kollektornye_dc_elektrodvigateli_i_motor-reduktory/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/shesterni_dlya_zubchatyh_reek/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/chervyachnye_reduktory_i_motor-reduktory/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/shlicevye_napravlyayuschie_vtulki_opory/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/gofrozaschita_dlya_relsovyh_napravlyayuschih/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/pulty_dlya_stankov_s_chpu/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/gofrozaschita_dlya_vintov_shvp/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/vinty_shvp/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/shvp_gotovye_obrabotannye/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektroprivod/shagovye_motor-reduktory/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/rashodnye_materialy/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/roliki_opornye_i_transportnye/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/aksessuary_i_remkomplekty_dlya_gaek_shvp/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/shkivy_dlya_remney/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/komplektuyuschie_dlya_sistem_smazki/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/gayki_dlya_vintov_shvp/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/bloki_smazki_i_pylezaschity_zaglushki/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/elektronika/programmiruemye_kontrollery_plc_i_hmi/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/ogranichiteli_i_pnevmaticheskie_zazhimy/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/mehanika/kabel-kanaly/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/chervyachnye_peredachi_zubchato-vintovye/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/mehanika/mufty/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/zubchatye_remni_i_aksessuary/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/trapeceidalnye_vinty/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/mehanika/promyshlennaya_furnitura/
+[2023-01-15 18:28:43] get html tree from url https://purelogic.ru/catalog/peredachi/cepnye_peredachi/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/peredachi/opory_hodovogo_vinta/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/mehanika/alyuminievyy_profil_konstrukcionnyy/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/mehanika/podshipniki_kacheniya_sfericheskie_sharovye/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/peredachi/kardannye_peredachi/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/mehanika/alyuminievye_zagotovki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/gazovye_rezaki_derzhateli_sistemy_avtopodzhiga/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/mehanika/komplektuyuschie_dlya_alyuminievogo_profilya/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/elektronika_dlya_plazmennoy_rezki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/pnevmatika/fitingi_i_pnevmotrubki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_aspiracii_pyleudaleniya/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/polisharnirnaya_armatura_dlya_podachi_sozh/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/zaschitnye_ochki_i_stkla_ot_lazernogo_izlucheniya/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/apparaty_lazernoy_ochistki_metalla/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rabochie_stoly_dlya_co2_lazerov/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/aksessuary_i_zapchasti_dlya_shpindeley/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_gazovoy_rezki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_elektroerozionnoy_rezki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/gazovye_rukava_i_armatura/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/istochniki_plazmennoy_rezki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/dymouloviteli_dlya_lazernyh_stankov/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_sozh_emulsionnogo_tipa/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/shpindelnye_nabory/
+[2023-01-15 18:28:44] start parsing product data 
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/lazernye_istochniki_volokonnyetvrdotelnye/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/mehanika/shponki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/shpindeli_remennoprivodnye/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_sozh_s_maslyanym_tumanom/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/poluprovodnikovye_lazernye_moduli/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/kabeli-metrazh/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/komplektuyushchie-dlya-plazmennoy-rezki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/elektronika_dlya_volokonnoy_lazernoy_rezki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/razemy_soedinitelnye/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/sistemy_ohlazhdeniya_chillery/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/mehanika/gofrozaschita/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/rashodnye_materialy_i_sredstva_po_uhodu/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/lazernye_trubki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy-avtomaticheskoy-smeny-instrumenta/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/elektroprivod/servodvigateli/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/opticheskie_lineyki_i_displei/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/frezy/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/cangovye_patrony_i_aksessuary/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/gravery/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/elektroprivod/reduktory/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/cangi_i_gayki_dlya_shpindeley/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_volokonnyh_lazerov/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/sistemy_ohlazhdeniya_so2_chillery/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/mehanika/metizy/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/osnastka_dlya_fiksacii_zagotovok/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/elektrotehnika/kabeli-gotovye/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/lazernye_golovki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_apparatov_plazmennoy_rezki/
+[2023-01-15 18:28:44] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_i_komplektuyuschie_dlya_lazernyh_so2_stankov/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_ohlazhdeniya_shpindeley/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/elektricheskie_ventilyatory_i_aksessuary/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/pedali_dzhoystiki_i_pulty/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/tokovye_transformatory_i_shunty/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/shpindeli/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/svetosignalnoe_oborudovanie/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/filtry_podavleniya_emp/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/cilindricheskie_elektromagnity/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/enkodery_dlya_asu_tp_i_chpu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/tverdotelnye_rele_i_aksessuary/
+[2023-01-15 18:28:45] get page quantity 
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/datchiki_i_koncevye_vyklyuchateli/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/promyshlennye_klaviatury1/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/sheetcam/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/mehatronika/manipulyatory/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/lineynye_solenoidy/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/tormoznye_rezistory/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/plastikovyy_profil_dlya_pechatnyh_plat/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/mehatronika/moduli_peremescheniya_po_zubchatoy_reyke/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/zadnie_centry_dlya_tokarnyh_stankov/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/stanki_dlya_zatochki_metchikov_frez_sverl/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/stanki-konstruktory_s_chpu1/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/mehatronika/aksessuary_dlya_moduley_lineynogo_peremescheniya/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/lazernye_volokonnye_stanki_s_chpu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/elektrotehnika/vyklyuchateli_knopki_tumblery/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/mehatronika/nabory_peremescheniy/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/mehatronika/moduli_vraschayuscheysya_gayki/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/aksessuary_dlya_stankov_s_chpu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/practicam/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/mehatronika/moduli_lineynogo_peremescheniya/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/mehatronika/povorotnye-osi-i-naklonno-povorotnye-stoly/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/plazmennye_stanki_s_chpu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/mehatronika/lineynye_aktuatory/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/filtroventilyacionnye_ustanovki_fvu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/gravery_i_markiratory_s_chpu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/delitelnye_golovki/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/promyshlennaya_mebel_dlya_stankov_s_chpu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/zazhimnye_i_tokarnye_patrony/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/nozhi_dlya_rezhuschih_plotterov/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/3d-printery_i_3d-ruchki/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/izmeritelnyy_instrument/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/konusy_morze_i_aksessuary/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/rashodnye_materialy_dlya_3d-printerov/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/rezbonareznye_stanki_i_aksessuary/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/komplekty_aspiracii_pyleudaleniya/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/3d_modeli_dlya_chpu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/mini-stanki_i_aksessuary/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/kompaktnye_stanki_termicheskoy_rezki/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/aksessuary_dlya_izmeritelnogo_instrumenta/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/tokarnye_derzhavki/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/ruchnye_gravery_i_aksessuary/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/komplektuyuschie_dlya_3d-printerov/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/privodnye_golovki_stankov/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/lazernye_co2_stanki_s_chpu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/zadnie_babki/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/derzhateli_nozhey_dlya_plotterov/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/pnevmatika/bloki_podgotovki_vozduha/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/sverlilnye_patrony/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/payalnye_stancii_i_aksessuary/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/frezernye_stanki_s_chpu/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/listogibochnye_stanki/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/tokarnye_plastiny/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/elektromagnitnye_stoly/
+[2023-01-15 18:28:45] start parsing product data 
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/pnevmatika/pnevmocilindry_i_capfy/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/pnevmatika/pnevmaticheskie_klapany/
+[2023-01-15 18:28:45] start parsing product data 
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/pnevmatika/masloraspredeliteli_dlya_pnevmatiki/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/pnevmatika/filtry_manometry_regulyatory_davleniya/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/tiski_lekalnye_sverlilnye/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/koordinatnye_i_povorotnye_stoly/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/osnastka/stanochnyy_izmeritelnyy_instrument/
+[2023-01-15 18:28:45] get html tree from url https://purelogic.ru/catalog/pnevmatika/pnevmoraspredeliteli_i_pnevmaticheskie_pedali/
+[2023-01-15 18:28:45] start parsing product data 
+[2023-01-15 18:28:45] start parsing product data 
+[2023-01-15 18:28:45] start parsing product data 
+[2023-01-15 18:28:45] start parsing product data 
+[2023-01-15 18:28:45] get page quantity 
+[2023-01-15 18:28:46] start parsing product data 
+[2023-01-15 18:28:46] start parsing product data 
+[2023-01-15 18:28:46] get page quantity 
+[2023-01-15 18:28:46] get page quantity 
+[2023-01-15 18:28:46] get page quantity 
+[2023-01-15 18:28:46] get page quantity 
+[2023-01-15 18:28:46] get page quantity 
+[2023-01-15 18:28:46] start parsing product data 
+[2023-01-15 18:28:46] get page quantity 
+[2023-01-15 18:28:46] get page quantity 
+[2023-01-15 18:28:46] get page quantity 
+[2023-01-15 18:28:46] start parsing product data 
+[2023-01-15 18:28:47] start parsing product data 
+[2023-01-15 18:28:47] start parsing product data 
+[2023-01-15 18:28:47] get page quantity 
+[2023-01-15 18:28:47] get page quantity 
+[2023-01-15 18:28:47] start parsing product data 
+[2023-01-15 18:28:47] get page quantity 
+[2023-01-15 18:28:47] start parsing product data 
+[2023-01-15 18:28:47] get page quantity 
+[2023-01-15 18:28:47] get page quantity 
+[2023-01-15 18:28:48] start parsing product data 
+[2023-01-15 18:28:48] get page quantity 
+[2023-01-15 18:28:48] start parsing product data 
+[2023-01-15 18:28:48] get page quantity 
+[2023-01-15 18:28:49] start parsing product data 
+[2023-01-15 18:28:49] start parsing product data 
+[2023-01-15 18:28:49] start parsing product data 
+[2023-01-15 18:28:49] start parsing product data 
+[2023-01-15 18:28:49] get page quantity 
+[2023-01-15 18:28:50] get page quantity 
+[2023-01-15 18:28:50] start parsing product data 
+[2023-01-15 18:28:50] get page quantity 
+[2023-01-15 18:28:50] get page quantity 
+[2023-01-15 18:28:50] start parsing product data 
+[2023-01-15 18:28:50] get page quantity 
+[2023-01-15 18:28:50] get page quantity 
+[2023-01-15 18:28:50] start parsing product data 
+[2023-01-15 18:28:50] get page quantity 
+[2023-01-15 18:28:50] start parsing product data 
+[2023-01-15 18:28:50] get page quantity 
+[2023-01-15 18:28:51] start parsing product data 
+[2023-01-15 18:28:51] get page quantity 
+[2023-01-15 18:28:51] start parsing product data 
+[2023-01-15 18:28:51] start parsing product data 
+[2023-01-15 18:28:51] start parsing product data 
+[2023-01-15 18:28:51] start parsing product data 
+[2023-01-15 18:28:51] start parsing product data 
+[2023-01-15 18:28:51] get page quantity 
+[2023-01-15 18:28:52] get page quantity 
+[2023-01-15 18:28:52] get page quantity 
+[2023-01-15 18:28:52] get page quantity 
+[2023-01-15 18:28:52] get page quantity 
+[2023-01-15 18:28:53] start parsing product data 
+[2023-01-15 18:28:53] get page quantity 
+[2023-01-15 18:28:53] start parsing product data 
+[2023-01-15 18:28:53] get page quantity 
+[2023-01-15 18:28:53] start parsing product data 
+[2023-01-15 18:28:53] start parsing product data 
+[2023-01-15 18:28:54] start parsing product data 
+[2023-01-15 18:28:54] start parsing product data 
+[2023-01-15 18:28:54] get page quantity 
+[2023-01-15 18:28:54] start parsing product data 
+[2023-01-15 18:28:54] get page quantity 
+[2023-01-15 18:28:54] get page quantity 
+[2023-01-15 18:28:54] start parsing product data 
+[2023-01-15 18:28:54] start parsing product data 
+[2023-01-15 18:28:54] get page quantity 
+[2023-01-15 18:28:54] get page quantity 
+[2023-01-15 18:28:54] get page quantity 
+[2023-01-15 18:28:55] get page quantity 
+[2023-01-15 18:28:55] start parsing product data 
+[2023-01-15 18:28:55] get page quantity 
+[2023-01-15 18:28:56] start parsing product data 
+[2023-01-15 18:28:56] start parsing product data 
+[2023-01-15 18:28:56] start parsing product data 
+[2023-01-15 18:28:56] start parsing product data 
+[2023-01-15 18:28:56] start parsing product data 
+[2023-01-15 18:28:56] start parsing product data 
+[2023-01-15 18:28:56] start parsing product data 
+[2023-01-15 18:29:58] Start app 
+[2023-01-15 18:29:58] init db models 
+[2023-01-15 18:29:58] prepare to get data from url https://purelogic.ru
+[2023-01-15 18:29:59] get html tree from url https://purelogic.ru
+[2023-01-15 18:30:00] start parsing data 
+[2023-01-15 18:30:00] find category names from html tree https://purelogic.ru
+[2023-01-15 18:30:00] create objects to model <class 'db.models.Category'>
+[2023-01-15 18:30:00] update Category database model <class 'parse.scrappers.PlScrapper'>, parser_tool=<class 'parse.parsers.PlCategoryParser'>, parser=<class 'bs4.BeautifulSoup'>, updater_tool=<class 'parse.db_updater.PlCategoryUpdater'>, model=<class 'db.models.Category'>, parent_model=<class 'db.models.Category'>
+[2023-01-15 18:30:25] Start app 
+[2023-01-15 18:30:25] init db models 
+[2023-01-15 18:30:25] prepare to get data from url https://purelogic.ru
+[2023-01-15 18:30:25] start schedule update category 
+[2023-01-15 18:30:25] finish schedule update category 
+[2023-01-15 18:30:25] start schedule update category 
+[2023-01-15 18:30:25] finish schedule update category 
+[2023-01-15 18:30:25] start schedule update category 
+[2023-01-15 18:30:25] finish schedule update category 
+[2023-01-15 18:30:25] start schedule update category 
+[2023-01-15 18:30:25] finish schedule update category 
+[2023-01-15 18:30:25] get html tree from url https://purelogic.ru
+[2023-01-15 18:30:25] start schedule update category 
+[2023-01-15 18:30:25] finish schedule update category 
+[2023-01-15 18:30:25] start schedule update category 
+[2023-01-15 18:30:25] finish schedule update category 
+[2023-01-15 18:30:25] start schedule update category 
+[2023-01-15 18:30:25] finish schedule update category 
+[2023-01-15 18:30:25] start schedule update category 
+[2023-01-15 18:30:25] finish schedule update category 
+[2023-01-15 18:30:26] start schedule update category 
+[2023-01-15 18:30:26] finish schedule update category 
+[2023-01-15 18:30:26] start schedule update category 
+[2023-01-15 18:30:26] finish schedule update category 
+[2023-01-15 18:30:26] start schedule update category 
+[2023-01-15 18:30:26] finish schedule update category 
+[2023-01-15 18:30:26] start schedule update category 
+[2023-01-15 18:30:26] finish schedule update category 
+[2023-01-15 18:30:26] start schedule update category 
+[2023-01-15 18:30:26] finish schedule update category 
+[2023-01-15 18:30:26] start schedule update category 
+[2023-01-15 18:30:26] finish schedule update category 
+[2023-01-15 18:30:26] start schedule update category 
+[2023-01-15 18:30:26] finish schedule update category 
+[2023-01-15 18:30:26] start parsing data 
+[2023-01-15 18:30:26] start schedule update category 
+[2023-01-15 18:30:26] finish schedule update category 
+[2023-01-15 18:30:26] start schedule update category 
+[2023-01-15 18:30:26] finish schedule update category 
+[2023-01-15 18:30:26] find category names from html tree https://purelogic.ru
+[2023-01-15 18:30:26] create objects to model <class 'db.models.Category'>
+[2023-01-15 18:30:26] update Category database model <class 'parse.scrappers.PlScrapper'>, parser_tool=<class 'parse.parsers.PlCategoryParser'>, parser=<class 'bs4.BeautifulSoup'>, updater_tool=<class 'parse.db_updater.PlCategoryUpdater'>, model=<class 'db.models.Category'>, parent_model=<class 'db.models.Category'>
+[2023-01-15 18:30:27] start schedule update category 
+[2023-01-15 18:30:27] finish schedule update category 
+[2023-01-15 18:30:27] start schedule update category 
+[2023-01-15 18:30:27] finish schedule update category 
+[2023-01-15 18:30:27] start schedule update category 
+[2023-01-15 18:30:27] finish schedule update category 
+[2023-01-15 18:30:27] start schedule update category 
+[2023-01-15 18:30:27] finish schedule update category 
+[2023-01-15 18:30:27] start schedule update category 
+[2023-01-15 18:30:27] finish schedule update category 
+[2023-01-15 18:30:27] start schedule update category 
+[2023-01-15 18:30:27] finish schedule update category 
+[2023-01-15 18:30:27] start schedule update category 
+[2023-01-15 18:30:27] finish schedule update category 
+[2023-01-15 18:30:27] start schedule update category 
+[2023-01-15 18:30:27] finish schedule update category 
+[2023-01-15 18:30:27] start schedule update category 
+[2023-01-15 18:30:27] finish schedule update category 
+[2023-01-15 18:30:28] start schedule update category 
+[2023-01-15 18:30:28] finish schedule update category 
+[2023-01-15 18:30:28] start schedule update category 
+[2023-01-15 18:30:28] finish schedule update category 
+[2023-01-15 18:30:28] start schedule update category 
+[2023-01-15 18:30:28] finish schedule update category 
+[2023-01-15 18:30:28] start schedule update category 
+[2023-01-15 18:30:28] finish schedule update category 
+[2023-01-15 18:30:28] start schedule update category 
+[2023-01-15 18:30:28] finish schedule update category 
+[2023-01-15 18:30:28] start schedule update category 
+[2023-01-15 18:30:28] finish schedule update category 
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/pnevmatika/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/elektrotehnika/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/
+[2023-01-15 18:30:28] start schedule update category 
+[2023-01-15 18:30:28] finish schedule update category 
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/elektronika/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/osnastka/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/peredachi/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/elektroprivod/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/mehatronika/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/
+[2023-01-15 18:30:28] get html tree from url https://purelogic.ru/catalog/mehanika/
+[2023-01-15 18:30:28] start schedule update category 
+[2023-01-15 18:30:28] finish schedule update category 
+[2023-01-15 18:30:29] start schedule update category 
+[2023-01-15 18:30:29] finish schedule update category 
+[2023-01-15 18:30:29] start schedule update category 
+[2023-01-15 18:30:29] finish schedule update category 
+[2023-01-15 18:30:29] start schedule update category 
+[2023-01-15 18:30:29] finish schedule update category 
+[2023-01-15 18:30:29] start schedule update category 
+[2023-01-15 18:30:29] finish schedule update category 
+[2023-01-15 18:30:29] start schedule update category 
+[2023-01-15 18:30:29] finish schedule update category 
+[2023-01-15 18:30:29] start schedule update category 
+[2023-01-15 18:30:29] finish schedule update category 
+[2023-01-15 18:30:29] start schedule update category 
+[2023-01-15 18:30:29] finish schedule update category 
+[2023-01-15 18:30:29] start schedule update category 
+[2023-01-15 18:30:29] finish schedule update category 
+[2023-01-15 18:30:30] start schedule update category 
+[2023-01-15 18:30:30] finish schedule update category 
+[2023-01-15 18:30:30] start schedule update category 
+[2023-01-15 18:30:30] finish schedule update category 
+[2023-01-15 18:30:30] start schedule update category 
+[2023-01-15 18:30:30] finish schedule update category 
+[2023-01-15 18:30:30] start schedule update category 
+[2023-01-15 18:30:30] finish schedule update category 
+[2023-01-15 18:30:30] start schedule update category 
+[2023-01-15 18:30:30] finish schedule update category 
+[2023-01-15 18:31:17] Start app 
+[2023-01-15 18:31:17] init db models 
+[2023-01-15 18:31:17] prepare to get data from url https://purelogic.ru
+[2023-01-15 18:31:17] start schedule update category data 
+[2023-01-15 18:31:17] get html tree from url https://purelogic.ru
+[2023-01-15 18:31:18] start parsing data 
+[2023-01-15 18:31:18] find category names from html tree https://purelogic.ru
+[2023-01-15 18:31:18] create objects to model <class 'db.models.Category'>
+[2023-01-15 18:31:18] update Category database model <class 'parse.scrappers.PlScrapper'>, parser_tool=<class 'parse.parsers.PlCategoryParser'>, parser=<class 'bs4.BeautifulSoup'>, updater_tool=<class 'parse.db_updater.PlCategoryUpdater'>, model=<class 'db.models.Category'>, parent_model=<class 'db.models.Category'>
+[2023-01-15 18:31:20] get html tree from url https://purelogic.ru/catalog/elektroprivod/
+[2023-01-15 18:31:20] get html tree from url https://purelogic.ru/catalog/osnastka/
+[2023-01-15 18:31:20] get html tree from url https://purelogic.ru/catalog/peredachi/
+[2023-01-15 18:31:20] get html tree from url https://purelogic.ru/catalog/elektronika/
+[2023-01-15 18:31:20] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/
+[2023-01-15 18:31:20] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/
+[2023-01-15 18:31:20] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/
+[2023-01-15 18:31:21] get html tree from url https://purelogic.ru/catalog/pnevmatika/
+[2023-01-15 18:31:21] get html tree from url https://purelogic.ru/catalog/elektrotehnika/
+[2023-01-15 18:31:21] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/
+[2023-01-15 18:31:21] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/
+[2023-01-15 18:31:21] get html tree from url https://purelogic.ru/catalog/mehatronika/
+[2023-01-15 18:31:21] get html tree from url https://purelogic.ru/catalog/mehanika/
+[2023-01-15 18:31:23] create objects to model <class 'db.models.SubCategory'>
+[2023-01-15 18:31:23] create objects to model <class 'db.models.SubCategory'>
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/drayvery_beskolektornyh_bldc_dvigateley/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/kontrollery_chpu/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/chastotnye_preobrazovateli_i_aksessuary/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/platy_kommutacii/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ruhttps://www.pumotix.ru/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ruhttps://purelogic.ru/catalog/24517/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/perehodniki_i_porty_vvodavyvoda/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/pulty_dlya_stankov_s_chpu/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ruhttps://purelogic.ru/catalog/24491/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/periferiynye_moduli_sistem_s_chpu/
+[2023-01-15 18:31:24] start schedule update products data 
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/nabory_elektroniki/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/peredachi/shvp_gotovye_obrabotannye/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/bloki_pitaniya_i_aksessuary/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/peredachi/opory_hodovogo_vinta/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/kontrollery_dvizheniya/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektroprivod/beskollektornye_bldc_motor-reduktory/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/karetki_dlya_profilnyh_napravlyayuschih/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/prochie_drayvery_elektrodvigateley/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/peredachi/gayki_dlya_vintov_shvp/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/opornye_moduli_i_lineynye_podshipniki/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/peredachi/reyki_zubchatye/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/profilnye_napravlyayuschie/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/preobrazovateli_napryazheniya/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektroprivod/shagovye_motor-reduktory/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/rashodnye_materialy/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/programmiruemye_kontrollery_plc_i_hmi/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektroprivod/aksessuary_dlya_dvigateley/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/sistemy_thc_i_omicheskie_datchiki_dlya_plazmennoy_rezki/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/servodrayvery/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/peredachi/trapeceidalnye_vinty/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/elektronika/drayvery_shagovyh_dvigateley/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/peredachi/aksessuary_i_remkomplekty_dlya_gaek_shvp/
+[2023-01-15 18:31:24] get html tree from url https://purelogic.ru/catalog/peredachi/gayki_dlya_trapeceidalnyh_vintov/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/komplektuyuschie_dlya_sistem_smazki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/derzhateli_polirovannyh_valov/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/peredachi/shesterni_dlya_zubchatyh_reek/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/mehanika/kabel-kanaly/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/peredachi/cepnye_peredachi/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/peredachi/chervyachnye_peredachi_zubchato-vintovye/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/indukcionnye_elektrodvigateli/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektronika/moduli_dlya_arduino/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/nabory_elektroprivoda/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/asinhronnye_elektrodvigateli_air/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektronika/bloki_i_stoyki_upravleniya_dlya_stankov_s_chpu/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/beskollektornye_elektrodvigateli_bldc/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektronika/transformatory_silovye/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/servodvigateli/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/shlicevye_napravlyayuschie_vtulki_opory/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/mehanika/alyuminievyy_profil_konstrukcionnyy/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/indukcionnye_ac_elektrodvigateli_i_motor-reduktory/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/chervyachnye_reduktory_i_motor-reduktory/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/cilindricheskie_relsy/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/reduktory/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/kollektornye_dc_elektrodvigateli/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektronika/stabilizatory_napryazheniya/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/privody_v_sbore/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektronika/moduli_asu_tp/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/peredachi/shkivy_dlya_remney/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/peredachi/vinty_shvp/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/roliki_opornye_i_transportnye/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/mehanika/mufty/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/peredachi/gofrozaschita_dlya_vintov_shvp/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/mehanika/komplektuyuschie_dlya_alyuminievogo_profilya/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/peredachi/moduli_krepleniya_i_derzhateli_gaek_shvp/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/elektronika_dlya_volokonnoy_lazernoy_rezki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/komplektuyushchie-dlya-plazmennoy-rezki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/mehanika/alyuminievye_zagotovki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rabochie_stoly_dlya_co2_lazerov/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/lazernye_istochniki_volokonnyetvrdotelnye/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/mehanika/podshipniki_kacheniya_sfericheskie_sharovye/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_apparatov_plazmennoy_rezki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/mehanika/promyshlennaya_furnitura/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/istochniki_plazmennoy_rezki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/sistemy_ohlazhdeniya_so2_chillery/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/kollektornye_dc_elektrodvigateli_i_motor-reduktory/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/shagovye_servodvigateli_shd_s_enkoderom/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/ustroystva_podachi_smazki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/gazovye_rezaki_derzhateli_sistemy_avtopodzhiga/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektroprivod/shagovye_dvigateli/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/gofrozaschita_dlya_relsovyh_napravlyayuschih/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/lazernye_golovki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/bloki_smazki_i_pylezaschity_zaglushki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/poluprovodnikovye_lazernye_moduli/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/napravlyayuschie/ogranichiteli_i_pnevmaticheskie_zazhimy/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/gazovye_rukava_i_armatura/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/shpindeli_remennoprivodnye/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/zaschitnye_ochki_i_stkla_ot_lazernogo_izlucheniya/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/shpindeli/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/mehanika/metizy/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/dymouloviteli_dlya_lazernyh_stankov/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/peredachi/kardannye_peredachi/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/cangovye_patrony_i_aksessuary/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_i_komplektuyuschie_dlya_lazernyh_so2_stankov/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/shpindelnye_nabory/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/pnevmatika/fitingi_i_pnevmotrubki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_gazovoy_rezki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/apparaty_lazernoy_ochistki_metalla/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/aksessuary_i_zapchasti_dlya_shpindeley/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_elektroerozionnoy_rezki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/sistemy_ohlazhdeniya_chillery/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/elektronika_dlya_plazmennoy_rezki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/rashodnye_detali_dlya_volokonnyh_lazerov/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/termicheskaya_rezka/lazernye_trubki/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/mehanika/gofrozaschita/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/peredachi/zubchatye_remni_i_aksessuary/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy-avtomaticheskoy-smeny-instrumenta/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_sozh_s_maslyanym_tumanom/
+[2023-01-15 18:31:25] get html tree from url https://purelogic.ru/catalog/elektrotehnika/kabeli-metrazh/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/mehanika/shponki/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/rashodnye_materialy_i_sredstva_po_uhodu/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_aspiracii_pyleudaleniya/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_ohlazhdeniya_shpindeley/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/datchiki_i_koncevye_vyklyuchateli/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/svetosignalnoe_oborudovanie/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/razemy_soedinitelnye/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/promyshlennye_klaviatury1/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/pedali_dzhoystiki_i_pulty/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/tokovye_transformatory_i_shunty/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/vyklyuchateli_knopki_tumblery/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/mehatronika/nabory_peremescheniy/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/mehatronika/moduli_lineynogo_peremescheniya/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/plastikovyy_profil_dlya_pechatnyh_plat/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/mehatronika/moduli_peremescheniya_po_zubchatoy_reyke/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/mehatronika/moduli_vraschayuscheysya_gayki/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/stanki_dlya_zatochki_metchikov_frez_sverl/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/lineynye_solenoidy/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/3d_modeli_dlya_chpu/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/filtry_podavleniya_emp/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/gravery_i_markiratory_s_chpu/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/cilindricheskie_elektromagnity/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/osnastka/zadnie_centry_dlya_tokarnyh_stankov/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/mini-stanki_i_aksessuary/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/promyshlennaya_mebel_dlya_stankov_s_chpu/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/tverdotelnye_rele_i_aksessuary/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/mehatronika/lineynye_aktuatory/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/tormoznye_rezistory/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/3d-printery_i_3d-ruchki/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/rezbonareznye_stanki_i_aksessuary/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/osnastka/tokarnye_plastiny/
+[2023-01-15 18:31:26] start parsing product data 
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/practicam/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/cangi_i_gayki_dlya_shpindeley/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/frezernye_stanki_s_chpu/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/mehatronika/povorotnye-osi-i-naklonno-povorotnye-stoly/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/opticheskie_lineyki_i_displei/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/osnastka/tokarnye_derzhavki/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/enkodery_dlya_asu_tp_i_chpu/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/osnastka/zazhimnye_i_tokarnye_patrony/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/komplektuyuschie_dlya_3d-printerov/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/lazernye_co2_stanki_s_chpu/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/rashodnye_materialy_dlya_3d-printerov/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/frezy/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/soft_dlya_chpu/sheetcam/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/kabeli-gotovye/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/mehatronika/aksessuary_dlya_moduley_lineynogo_peremescheniya/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/osnastka/konusy_morze_i_aksessuary/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/osnastka_dlya_fiksacii_zagotovok/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/osnastka/izmeritelnyy_instrument/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/stanki-konstruktory_s_chpu1/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/komplekty_aspiracii_pyleudaleniya/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/elektrotehnika/elektricheskie_ventilyatory_i_aksessuary/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/pnevmatika/masloraspredeliteli_dlya_pnevmatiki/
+[2023-01-15 18:31:26] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/gravery/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/aksessuary_dlya_stankov_s_chpu/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/kompaktnye_stanki_termicheskoy_rezki/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/privodnye_golovki_stankov/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/listogibochnye_stanki/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/mehatronika/manipulyatory/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/lazernye_volokonnye_stanki_s_chpu/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/aksessuary_dlya_izmeritelnogo_instrumenta/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/plazmennye_stanki_s_chpu/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/derzhateli_nozhey_dlya_plotterov/
+[2023-01-15 18:31:27] start parsing product data 
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/sistemy_sozh_emulsionnogo_tipa/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/stanki-i-oborudovanie/filtroventilyacionnye_ustanovki_fvu/
+[2023-01-15 18:31:27] start parsing product data 
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/payalnye_stancii_i_aksessuary/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/nozhi_dlya_rezhuschih_plotterov/
+[2023-01-15 18:31:27] get page quantity 
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/pnevmatika/bloki_podgotovki_vozduha/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/pnevmatika/pnevmaticheskie_klapany/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/zadnie_babki/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/ruchnye_gravery_i_aksessuary/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/pnevmatika/filtry_manometry_regulyatory_davleniya/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/elektromagnitnye_stoly/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/pnevmatika/pnevmoraspredeliteli_i_pnevmaticheskie_pedali/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/tiski_lekalnye_sverlilnye/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/pnevmatika/pnevmocilindry_i_capfy/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/sverlilnye_patrony/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/frezernaya_obrabotka/polisharnirnaya_armatura_dlya_podachi_sozh/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/stanochnyy_izmeritelnyy_instrument/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/delitelnye_golovki/
+[2023-01-15 18:31:27] get html tree from url https://purelogic.ru/catalog/osnastka/koordinatnye_i_povorotnye_stoly/
+[2023-01-15 18:31:27] start parsing product data 
+[2023-01-15 18:31:27] start parsing product data 
+[2023-01-15 18:31:28] start parsing product data 
+[2023-01-15 18:31:28] get page quantity 
+[2023-01-15 18:31:28] get page quantity 
+[2023-01-15 18:31:28] get page quantity 
+[2023-01-15 18:31:28] start parsing product data 
+[2023-01-15 18:31:28] start parsing product data 
+[2023-01-15 18:31:28] start parsing product data 
+[2023-01-15 18:31:28] get page quantity 
+[2023-01-15 18:31:28] get page quantity 
+[2023-01-15 18:31:28] get page quantity 
+[2023-01-15 18:31:28] start parsing product data 
+[2023-01-15 18:31:29] get page quantity 
+[2023-01-15 18:31:29] start parsing product data 
+[2023-01-15 18:31:29] get page quantity 
+[2023-01-15 18:31:29] start parsing product data 
+[2023-01-15 18:31:29] start parsing product data 
+[2023-01-15 18:31:29] get page quantity 
+[2023-01-15 18:31:29] get page quantity 
+[2023-01-15 18:31:30] get page quantity 
+[2023-01-15 18:31:30] start parsing product data 
+[2023-01-15 18:31:30] get page quantity 
+[2023-01-15 18:31:30] start parsing product data 
+[2023-01-15 18:31:30] get page quantity 
+[2023-01-15 18:31:31] get page quantity 
+[2023-01-15 18:31:31] start parsing product data 
+[2023-01-15 18:31:31] get page quantity 
+[2023-01-15 18:31:31] start parsing product data 
+[2023-01-15 18:31:32] start parsing product data 
+[2023-01-15 18:31:32] get page quantity 
+[2023-01-15 18:31:32] get page quantity 
+[2023-01-15 18:31:32] start parsing product data 
+[2023-01-15 18:31:32] start parsing product data 
+[2023-01-15 18:31:33] get page quantity 
+[2023-01-15 18:31:33] get page quantity 
+[2023-01-15 18:31:33] start parsing product data 
+[2023-01-15 18:31:33] get page quantity 
+[2023-01-15 18:31:33] start parsing product data 
+[2023-01-15 18:31:33] start parsing product data 
+[2023-01-15 18:31:33] get page quantity 
+[2023-01-15 18:31:33] start parsing product data 
+[2023-01-15 18:31:33] get page quantity 
+[2023-01-15 18:31:33] start parsing product data 
+[2023-01-15 18:31:34] get page quantity 
+[2023-01-15 18:31:34] start parsing product data 
+[2023-01-15 18:31:34] get page quantity 
+[2023-01-15 18:31:34] start parsing product data 
+[2023-01-15 18:31:34] get page quantity 
+[2023-01-15 18:31:34] get page quantity 
+[2023-01-15 18:31:35] start parsing product data 
+[2023-01-15 18:31:35] start parsing product data 
+[2023-01-15 18:31:35] start parsing product data 
+[2023-01-15 18:31:35] get page quantity 
+[2023-01-15 18:31:35] start parsing product data 
+[2023-01-15 18:31:35] get page quantity 
+[2023-01-15 18:31:35] get page quantity 
+[2023-01-15 18:31:35] get page quantity 
+[2023-01-15 18:31:36] start parsing product data 
+[2023-01-15 18:31:36] start parsing product data 
+[2023-01-15 18:31:36] start parsing product data 
+[2023-01-15 18:31:36] get page quantity 
+[2023-01-15 18:31:36] get page quantity 
+[2023-01-15 18:31:36] get page quantity 
+[2023-01-15 18:31:37] start parsing product data 
+[2023-01-15 18:31:37] start parsing product data 
+[2023-01-15 18:31:37] get page quantity 
+[2023-01-15 18:31:37] get page quantity 
+[2023-01-15 18:31:37] start parsing product data 
+[2023-01-15 18:31:37] start parsing product data 
+[2023-01-15 18:31:37] get page quantity 
+[2023-01-15 18:31:37] get page quantity 
+[2023-01-15 18:31:38] start parsing product data 
+[2023-01-15 18:31:38] start parsing product data 
+[2023-01-15 18:31:38] get page quantity 
+[2023-01-15 18:31:38] start parsing product data 
+[2023-01-15 18:31:38] get page quantity 
+[2023-01-15 18:31:38] start parsing product data 
+[2023-01-15 18:31:39] start parsing product data 
+[2023-01-15 18:31:39] get page quantity 
+[2023-01-15 18:31:39] get page quantity 
+[2023-01-15 18:31:39] get page quantity 
+[2023-01-15 18:31:39] start parsing product data 
+[2023-01-15 18:31:39] start parsing product data 
+[2023-01-15 18:31:40] start parsing product data 
+[2023-01-15 18:31:40] get page quantity 
+[2023-01-15 18:31:40] start parsing product data 
+[2023-01-15 18:31:40] start parsing product data 
+[2023-01-15 18:31:40] get page quantity 
+[2023-01-15 18:31:40] get page quantity 
+[2023-01-15 18:31:40] get page quantity 
+[2023-01-15 18:31:40] get page quantity 
+[2023-01-15 18:31:40] start parsing product data 
+[2023-01-15 18:31:41] start parsing product data 
+[2023-01-15 18:31:41] get page quantity 
+[2023-01-15 18:31:41] get page quantity 
+[2023-01-15 18:31:41] start parsing product data 
+[2023-01-15 18:31:41] start parsing product data 
+[2023-01-15 18:31:42] start parsing product data 
+[2023-01-15 18:31:42] get page quantity 
+[2023-01-15 18:31:42] start parsing product data 
+[2023-01-15 18:31:42] get page quantity 
+[2023-01-15 18:31:42] start parsing product data 
+[2023-01-15 18:31:42] get page quantity 
+[2023-01-15 18:31:42] get page quantity 
+[2023-01-15 18:31:42] start parsing product data 
+[2023-01-15 18:31:42] get page quantity 
+[2023-01-15 18:31:42] start parsing product data 
+[2023-01-15 18:31:43] get page quantity 
+[2023-01-15 18:31:43] start parsing product data 
+[2023-01-15 18:31:43] get page quantity 
+[2023-01-15 18:31:43] start parsing product data 
+[2023-01-15 18:31:43] get page quantity 
+[2023-01-15 18:31:43] get page quantity 
+[2023-01-15 18:31:43] start parsing product data 
+[2023-01-15 18:31:44] get page quantity 
+[2023-01-15 18:31:44] start parsing product data 
+[2023-01-15 18:31:44] get page quantity 
+[2023-01-15 18:31:44] start parsing product data 
+[2023-01-15 18:31:45] get page quantity 
+[2023-01-15 18:31:45] start parsing product data 
+[2023-01-15 18:31:45] start parsing product data 
+[2023-01-15 18:31:45] start parsing product data 
+[2023-01-15 18:31:45] get page quantity 
+[2023-01-15 18:31:45] get page quantity 
+[2023-01-15 18:31:45] get page quantity 
+[2023-01-15 18:31:45] start parsing product data 
+[2023-01-15 18:31:45] start parsing product data 
+[2023-01-15 18:31:45] get page quantity 
+[2023-01-15 18:31:45] start parsing product data 
+[2023-01-15 18:31:46] get page quantity 
+[2023-01-15 18:31:46] start parsing product data 
+[2023-01-15 18:31:46] get page quantity 
+[2023-01-15 18:31:46] start parsing product data 
+[2023-01-15 18:31:46] get page quantity 
+[2023-01-15 18:31:46] start parsing product data 
+[2023-01-15 18:31:46] get page quantity 
+[2023-01-15 18:31:46] start parsing product data 
+[2023-01-15 18:31:46] get page quantity 
+[2023-01-15 18:31:46] start parsing product data 
+[2023-01-15 18:31:46] start parsing product data 
+[2023-01-15 18:31:46] get page quantity 
+[2023-01-15 18:31:47] get page quantity 
+[2023-01-15 18:31:47] get page quantity 
+[2023-01-15 18:31:47] start parsing product data 
+[2023-01-15 18:31:47] get page quantity 
+[2023-01-15 18:31:47] start parsing product data 
+[2023-01-15 18:31:48] start parsing product data 
+[2023-01-15 18:31:48] start parsing product data 
+[2023-01-15 18:31:48] get page quantity 
+[2023-01-15 18:31:48] get page quantity 
+[2023-01-15 18:31:48] get page quantity 
+[2023-01-15 18:31:48] start parsing product data 
+[2023-01-15 18:31:48] start parsing product data 
+[2023-01-15 18:31:49] get page quantity 
+[2023-01-15 18:31:49] start parsing product data 
+[2023-01-15 18:31:49] get page quantity 
+[2023-01-15 18:31:49] start parsing product data 
+[2023-01-15 18:31:49] get page quantity 
+[2023-01-15 18:31:49] start parsing product data 
+[2023-01-15 18:31:49] get page quantity 
+[2023-01-15 18:31:49] get page quantity 
+[2023-01-15 18:31:50] start parsing product data 
+[2023-01-15 18:31:50] start parsing product data 
+[2023-01-15 18:31:50] start parsing product data 
+[2023-01-15 18:31:50] get page quantity 
+[2023-01-15 18:31:50] start parsing product data 
+[2023-01-15 18:31:50] get page quantity 
+[2023-01-15 18:31:50] start parsing product data 
+[2023-01-15 18:31:50] start parsing product data 
+[2023-01-15 18:31:50] get page quantity 
+[2023-01-15 18:31:50] get page quantity 
+[2023-01-15 18:31:50] get page quantity 
+[2023-01-15 18:31:50] start parsing product data 
+[2023-01-15 18:31:51] get page quantity 
+[2023-01-15 18:31:51] start parsing product data 
+[2023-01-15 18:31:51] get page quantity 
+[2023-01-15 18:31:51] start parsing product data 
+[2023-01-15 18:31:51] get page quantity 
+[2023-01-15 18:31:51] get page quantity 
+[2023-01-15 18:31:51] start parsing product data 
+[2023-01-15 18:31:52] get page quantity 
+[2023-01-15 18:31:52] start parsing product data 
+[2023-01-15 18:31:52] get page quantity 
+[2023-01-15 18:31:52] start parsing product data 
+[2023-01-15 18:31:52] start parsing product data 
+[2023-01-15 18:31:52] get page quantity 
+[2023-01-15 18:31:52] get page quantity 
+[2023-01-15 18:31:52] start parsing product data 
+[2023-01-15 18:31:52] get page quantity 
+[2023-01-15 18:31:52] start parsing product data 
+[2023-01-15 18:31:52] start parsing product data 
+[2023-01-15 18:31:52] start parsing product data 
+[2023-01-15 18:31:53] get page quantity 
+[2023-01-15 18:31:53] start parsing product data 
+[2023-01-15 18:31:53] get page quantity 
+[2023-01-15 18:31:53] get page quantity 
+[2023-01-15 18:31:53] start parsing product data 
+[2023-01-15 18:31:53] start parsing product data 
+[2023-01-15 18:31:53] get page quantity 
+[2023-01-15 18:31:53] get page quantity 
+[2023-01-15 18:31:53] get page quantity 
+[2023-01-15 18:31:53] start parsing product data 
+[2023-01-15 18:31:53] get page quantity 
+[2023-01-15 18:31:53] start parsing product data 
+[2023-01-15 18:31:53] start parsing product data 
+[2023-01-15 18:31:54] get page quantity 
+[2023-01-15 18:31:54] start parsing product data 
+[2023-01-15 18:31:54] get page quantity 
+[2023-01-15 18:31:54] start parsing product data 
+[2023-01-15 18:31:54] start parsing product data 
+[2023-01-15 18:31:54] get page quantity 
+[2023-01-15 18:31:54] start parsing product data 
+[2023-01-15 18:31:54] start parsing product data 
+[2023-01-15 18:31:54] get page quantity 
+[2023-01-15 18:31:54] start parsing product data 
+[2023-01-15 18:31:54] get page quantity 
+[2023-01-15 18:31:54] get page quantity 
+[2023-01-15 18:31:54] get page quantity 
+[2023-01-15 18:31:54] get page quantity 
+[2023-01-15 18:31:55] start parsing product data 
+[2023-01-15 18:31:55] get page quantity 
+[2023-01-15 18:31:55] start parsing product data 
+[2023-01-15 18:31:55] start parsing product data 
+[2023-01-15 18:31:55] start parsing product data 
+[2023-01-15 18:31:55] get page quantity 
+[2023-01-15 18:31:55] start parsing product data 
+[2023-01-15 18:31:55] get page quantity 
+[2023-01-15 18:31:55] get page quantity 
+[2023-01-15 18:31:55] start parsing product data 
+[2023-01-15 18:31:55] get page quantity 
+[2023-01-15 18:31:56] start parsing product data 
+[2023-01-15 18:31:56] get page quantity 
+[2023-01-15 18:31:56] get page quantity 
+[2023-01-15 18:31:56] start parsing product data 
+[2023-01-15 18:31:56] start parsing product data 
+[2023-01-15 18:31:56] get page quantity 
+[2023-01-15 18:31:56] start parsing product data 
+[2023-01-15 18:31:56] get page quantity 
+[2023-01-15 18:31:56] start parsing product data 
+[2023-01-15 18:31:56] start parsing product data 
+[2023-01-15 18:31:56] start parsing product data 
+[2023-01-15 18:31:56] get page quantity 
+[2023-01-15 18:31:56] get page quantity 
+[2023-01-15 18:31:57] get page quantity 
+[2023-01-15 18:31:57] get page quantity 
+[2023-01-15 18:31:57] start parsing product data 
+[2023-01-15 18:31:57] get page quantity 
+[2023-01-15 18:31:57] start parsing product data 
+[2023-01-15 18:31:57] start parsing product data 
+[2023-01-15 18:31:57] start parsing product data 
+[2023-01-15 18:31:57] start parsing product data 
+[2023-01-15 18:31:57] get page quantity 
+[2023-01-15 18:31:57] start parsing product data 
+[2023-01-15 18:31:57] start parsing product data 
+[2023-01-15 18:31:57] get page quantity 
+[2023-01-15 18:31:57] start parsing product data 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] start parsing product data 
+[2023-01-15 18:31:58] start parsing product data 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] start parsing product data 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] start parsing product data 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] start parsing product data 
+[2023-01-15 18:31:58] start parsing product data 
+[2023-01-15 18:31:58] start parsing product data 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] start parsing product data 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:58] get page quantity 
+[2023-01-15 18:31:59] start parsing product data 
+[2023-01-15 18:31:59] get page quantity 
+[2023-01-15 18:31:59] start parsing product data 
+[2023-01-15 18:31:59] start parsing product data 
+[2023-01-15 18:31:59] get page quantity 
+[2023-01-15 18:31:59] get page quantity 
+[2023-01-15 18:31:59] get page quantity 
+[2023-01-15 18:31:59] start parsing product data 
+[2023-01-15 18:31:59] get page quantity 
+[2023-01-15 18:31:59] start parsing product data 
+[2023-01-15 18:32:00] start parsing product data 
+[2023-01-15 18:32:00] get page quantity 
+[2023-01-15 18:32:00] start parsing product data 
+[2023-01-15 18:32:00] get page quantity 
+[2023-01-15 18:32:01] start parsing product data 
+[2023-01-15 18:32:01] get page quantity 
+[2023-01-15 18:32:01] start parsing product data 
+[2023-01-15 18:32:01] get page quantity 
+[2023-01-15 18:32:01] start parsing product data 
+[2023-01-15 18:32:01] start parsing product data 
+[2023-01-15 18:32:01] start parsing product data 
+[2023-01-15 18:32:01] get page quantity 
+[2023-01-15 18:32:01] start parsing product data 
+[2023-01-15 18:32:01] get page quantity 
+[2023-01-15 18:32:01] get page quantity 
+[2023-01-15 18:32:02] get page quantity 
+[2023-01-15 18:32:02] get page quantity 
+[2023-01-15 18:32:02] start parsing product data 
+[2023-01-15 18:32:02] get page quantity 
+[2023-01-15 18:32:02] start parsing product data 
+[2023-01-15 18:32:02] get page quantity 
+[2023-01-15 18:32:02] start parsing product data 
+[2023-01-15 18:32:02] start parsing product data 
+[2023-01-15 18:32:02] start parsing product data 
+[2023-01-15 18:32:02] get page quantity 
+[2023-01-15 18:32:02] start parsing product data 
+[2023-01-15 18:32:03] get page quantity 
+[2023-01-15 18:32:03] get page quantity 
+[2023-01-15 18:32:03] get page quantity 
+[2023-01-15 18:32:03] start parsing product data 
+[2023-01-15 18:32:03] start parsing product data 
+[2023-01-15 18:32:03] get page quantity 
+[2023-01-15 18:32:03] start parsing product data 
+[2023-01-15 18:32:03] get page quantity 
+[2023-01-15 18:32:03] start parsing product data 
+[2023-01-15 18:32:03] start parsing product data 
+[2023-01-15 18:32:04] get page quantity 
+[2023-01-15 18:32:04] start parsing product data 
+[2023-01-15 18:32:04] get page quantity 
+[2023-01-15 18:32:04] get page quantity 
+[2023-01-15 18:32:04] start parsing product data 
+[2023-01-15 18:32:04] get page quantity 
+[2023-01-15 18:32:04] start parsing product data 
+[2023-01-15 18:32:04] get page quantity 
+[2023-01-15 18:32:04] start parsing product data 
+[2023-01-15 18:32:04] get page quantity 
+[2023-01-15 18:32:04] start parsing product data 
+[2023-01-15 18:32:04] get page quantity 
+[2023-01-15 18:32:04] get page quantity 
+[2023-01-15 18:32:04] start parsing product data 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] start parsing product data 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:05] get page quantity 
+[2023-01-15 18:32:06] get page quantity 
+[2023-01-15 18:32:06] get page quantity 
+[2023-01-15 18:32:06] start parsing product data 
+[2023-01-15 18:32:06] start parsing product data 
+[2023-01-15 18:32:06] get page quantity 
+[2023-01-15 18:32:06] start parsing product data 
+[2023-01-15 18:32:06] get page quantity 
+[2023-01-15 18:32:06] get page quantity 
+[2023-01-15 18:32:08] create objects to model <class 'db.models.Product'>
+[2023-01-15 18:32:18] Product add to database 
+[2023-01-15 18:32:18] create objects to model <class 'db.models.Product'>
+[2023-01-15 18:32:18] Product add to database 
