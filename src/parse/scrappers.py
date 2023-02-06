@@ -5,8 +5,11 @@ from abc import ABCMeta, abstractmethod
 
 import aiohttp
 from aiohttp import ClientConnectorError
+from sqlalchemy import select
 
 from core import action_log
+from core.session import async_session
+from db.models import ParseSettings
 
 
 class Scrapper(object):
@@ -26,8 +29,9 @@ class Scrapper(object):
 
 
 class PlScrapper(Scrapper):
+    name = 'pl_parser'
 
-    def __init__(self, urls, parser, updater, loop):
+    def __init__(self, parser, updater, loop, urls=None):
         self.donor_urls = urls
         self.parser = parser
         self.updater = updater
@@ -46,9 +50,11 @@ class PlScrapper(Scrapper):
             else:
                 action_log.info('prepare to get data from url', data=self.donor_urls)
                 res = await asyncio.gather(self.fetch_and_parse(session, self.donor_urls))
+
             await self.updater.create_or_update(res[0])
 
     async def fetch_and_parse(self, session, url):
+
         html = await self.fetch(session, url)
         action_log.info('get html tree from url', data=url)
         if html:
@@ -56,5 +62,6 @@ class PlScrapper(Scrapper):
 
     async def fetch(self, session, url):
         with contextlib.suppress(ClientConnectorError):
+
             async with session.get(url) as resp:
                 return await resp.text()

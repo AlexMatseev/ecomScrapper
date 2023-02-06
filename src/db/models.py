@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from sqlalchemy import Column, DateTime
+from sqlalchemy import Column, DateTime, JSON
 from sqlalchemy import ForeignKey
 from sqlalchemy import Integer
 from sqlalchemy import String
@@ -54,14 +54,13 @@ class Product(BaseModel):
     def __repr__(self):
         return f'Product(id={self.id!r}, name={self.name!r})'
 
-# class Address(Base):
-#     __tablename__ = "address"
-#
-#     id = Column(Integer, primary_key=True)
-#     email_address = Column(String, nullable=False)
-#     user_id = Column(Integer, ForeignKey("user_account.id"), nullable=False)
-#
-#     user = relationship("User", back_populates="addresses")
-#
-#     def __repr__(self):
-#         return f"Address(id={self.id!r}, email_address={self.email_address!r})"
+
+class ParseSettings(BaseModel):
+    __tablename__ = "parse_settings"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String, nullable=False)
+    data = Column(JSON, nullable=False)
+
+    def __repr__(self):
+        return f"ParseSetting(id={self.id!r}, name={self.name!r})"

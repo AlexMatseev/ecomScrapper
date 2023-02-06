@@ -3,8 +3,11 @@ from abc import ABCMeta, abstractmethod
 import requests
 from requests import ConnectTimeout
 from requests.exceptions import SSLError
+from sqlalchemy import select
 
 from core import action_log
+from core.session import async_session
+from db.models import ParseSettings
 
 
 class Parser(metaclass=ABCMeta):
@@ -19,16 +22,13 @@ class Parser(metaclass=ABCMeta):
 
 
 class PlCategoryParser(Parser):
-    DONOR_URL = 'https://purelogic.ru'
-    CATEGORY_CLASS = 'sidebar-nav__link'
-    CATEGORY_TAG = 'span'
-    CATEGORY_LINK_CLASS = 'sidebar-nav-item__label'
-    EXCLUDE_URLS = ['/brands/', '/uslugi/', '/catalog/sale/']
+    name = 'pl_parser'
     parser_type = 'html.parser'
 
     def __init__(self, parser):
-        super(PlCategoryParser).__init__()
+        super(PlCategoryParser).__init__(parser)
         self.parser = parser
+        self.settings = None
 
     def __repr__(self):
         return f'{self.__class__}, parser={self.parser}'
@@ -36,14 +36,15 @@ class PlCategoryParser(Parser):
     def parse(self, html, url):
         action_log.info('start parsing data', data='')
         result = self.get_result(html)
-        cat_names = result.findAll('a', class_=self.CATEGORY_CLASS)
+        cat_names = result.findAll('a', class_=self.settings.get('CATEGORY_LIST_CLASS'))
         action_log.info('find category names from html tree', data=url)
         return {
             a.find(
-                self.CATEGORY_TAG, class_=self.CATEGORY_LINK_CLASS).text.strip(): url + ''.join(
+                self.settings.get('CATEGORY_LINK_TAG'),
+                class_=self.settings.get('CATEGORY_LINK_CLASS')).text.strip(): url + ''.join(
                 a.get('href').split()
-                )
-            for a in cat_names if a.get('href') not in self.EXCLUDE_URLS
+            )
+            for a in cat_names if a.get('href') not in self.settings.get('EXCLUDE_URLS')
         }
 
     def get_result(self, html):
@@ -51,8 +52,6 @@ class PlCategoryParser(Parser):
 
 
 class PlSubCategoryParser(PlCategoryParser):
-    CATEGORY_CLASS = 'catalog-subsection__link'
-    CATEGORY_TAG = 'span'
 
     def __init__(self, parser):
         super(PlCategoryParser).__init__(parser)
@@ -61,17 +60,16 @@ class PlSubCategoryParser(PlCategoryParser):
     def parse(self, html, url):
         if url:
             result = self.get_result(html)
-            sub_cat_names = result.findAll('a', class_=self.CATEGORY_CLASS)
+            sub_cat_names = result.findAll('a', class_=self.settings.get('SUB_CATEGORY_LIST_CLASS'))
             return {
-                url: {a.find(self.CATEGORY_TAG).text.strip(): self.DONOR_URL + ''.join(a.get('href').split()) for a in
-                      sub_cat_names}}
+                url: {
+                    a.find(self.settings.get('CATEGORY_LINK_TAG')).text.strip():
+                        self.settings.get('DONOR_URL') + ''.join(a.get('href').split()) for a in sub_cat_names
+                }
+            }
 
 
 class PlProductParser(PlCategoryParser):
-    PRODUCT_CLASS = 'catalog-item__link'
-    PRODUCT_TAG = 'div'
-    MIN_STOCK = 1
-    EXCLUDE_LINK_WORDS = 'news'
 
     def __init__(self, parser):
         super(PlCategoryParser).__init__(parser)
@@ -93,7 +91,7 @@ class PlProductParser(PlCategoryParser):
             urls = []
             try:
                 for page in pages:
-                    data = requests.get(self.DONOR_URL + ''.join(page.get('href').split())).text
+                    data = requests.get(self.settings.get('DONOR_URL') + ''.join(page.get('href').split())).text
                     urls.append(data)
             except (ConnectTimeout, SSLError) as err:
                 action_log.info('Connection loosed', data=err)
@@ -101,23 +99,24 @@ class PlProductParser(PlCategoryParser):
             return urls
 
     def update_product_data(self, product_data, result, url):
-        products = result.findAll('a', class_=self.PRODUCT_CLASS)
+        products = result.findAll('a', class_=self.settings.get('PRODUCT_LIST_CLASS'))
         for product in products:
-            if '//' in product.get('href') or product.get('href') == '' or self.EXCLUDE_LINK_WORDS in product.get('href'):
+            if '//' in product.get('href') or product.get('href') == '' \
+                    or self.settings.get('URL_PATTERN_WORDS') in product.get('href'):
                 continue
-            name = product.find(self.PRODUCT_TAG, {'class': 'catalog-item__name'}).text.strip()
-            price = product.find(self.PRODUCT_TAG, {'class': 'price__discount'})
+            name = product.find(self.settings.get('PRODUCT_LINK_TAG'), {'class': 'catalog-item__name'}).text.strip()
+            price = product.find(self.settings.get('PRODUCT_LINK_TAG'), {'class': 'price__discount'})
             price = int(''.join(x for x in price.text.strip() if x.isdigit())) if price else 0
 
             data = {
                 name: {
-                    'url': self.DONOR_URL + ''.join(product.get('href').split()),
+                    'url': self.settings.get('DONOR_URL') + ''.join(product.get('href').split()),
                     'price': price,
-                    'sku': product.find(self.PRODUCT_TAG, {'class': 'product-code'}).text.strip(),
+                    'sku': product.find(self.settings.get('PRODUCT_LINK_TAG'), {'class': 'product-code'}).text.strip(),
                 }
             }
-            stock = product.find(self.PRODUCT_TAG, {'class': 'product-status'})
-            stock = self.MIN_STOCK if stock else 0
+            stock = product.find(self.settings.get('PRODUCT_LINK_TAG'), {'class': 'product-status'})
+            stock = self.settings.get('MIN_FAKE_STOCK') if stock else 0
             data[name]['stock'] = stock
             if name not in product_data[url].keys():
                 product_data[url].update(data)

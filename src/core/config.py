@@ -1,26 +1,59 @@
-# PARSER
+from typing import Literal, Optional
+from pathlib import Path
+from pydantic import BaseSettings, PostgresDsn, validator, AnyHttpUrl
 
-DONOR_URL = 'https://purelogic.ru'
-CATEGORY_LIST_CLASS = 'sidebar-nav__link'
-CATEGORY_LINK_TAG = 'span'
-EXCLUDE_URLS = ['/brands/', '/uslugi/', '/catalog/sale/']
-CATEGORY_LINK_CLASS = 'sidebar-nav-item__label'
-SUB_CATEGORY_LIST_CLASS = 'catalog-subsection__link'
-PRODUCT_LIST_CLASS = 'catalog-item__link'
-PRODUCT_LINK_TAG = 'div'
-PRODUCT_FIND_NAME = {'class': 'catalog-item__name'}
-MIN_FAKE_STOCK = 1
-PLG_PAGEN_URL_PATTERN = f'{DONOR_URL}/filter/clear/apply/?PAGEN_1='
-URL_PATTERN_WORDS = 'news'
+PROJECT_DIR = Path(__file__).parent.parent.parent
 
-# TASKS
-CATEGORY_UPDATE_PERIOD = 30
-CATEGORY_JOB_TIME = '8:22'
-PRODUCT_JOB_TIME = '3:00'
 
-# DATABASE
-HOST = '127.0.0.1'
-USER = 'postgres'
-PASSWORD = 'postgres'
-DB_NAME = 'actual_product'
-DB_URL = f'postgresql+asyncpg://{USER}:{PASSWORD}@{HOST}/{DB_NAME}'
+class Settings(BaseSettings):
+
+    ENVIRONMENT: Literal["DEV", "PYTEST", "STG", "PRD"] = "DEV"
+    SECURITY_BCRYPT_ROUNDS: int = 12
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 11520  # 8 days
+    REFRESH_TOKEN_EXPIRE_MINUTES: int = 40320  # 28 days
+    BACKEND_CORS_ORIGINS: list[AnyHttpUrl] = []
+    ALLOWED_HOSTS: list[str] = ["localhost", "127.0.0.1"]
+
+    # POSTGRESQL DEFAULT DATABASE
+    DATABASE_HOSTNAME: str
+    DATABASE_USER: str
+    DATABASE_PASSWORD: str
+    DATABASE_PORT: str
+    DATABASE_DB: str
+    DB_URI: str = ""
+
+    # POSTGRESQL TEST DATABASE
+    TEST_DATABASE_HOSTNAME: str = "postgres"
+    TEST_DATABASE_USER: str = "postgres"
+    TEST_DATABASE_PASSWORD: str = "postgres"
+    TEST_DATABASE_PORT: str = "5432"
+    TEST_DATABASE_DB: str = "postgres"
+    TEST_SQLALCHEMY_DATABASE_URI: str = ""
+
+    @validator("DB_URI")
+    def _assemble_default_db_connection(cls, v: str, values: dict[str, str]) -> str:
+        return PostgresDsn.build(
+            scheme="postgresql+asyncpg",
+            user=values["DATABASE_USER"],
+            password=values["DATABASE_PASSWORD"],
+            host=values["DATABASE_HOSTNAME"],
+            path=f"/{values['DATABASE_DB']}",
+        )
+
+    @validator("TEST_SQLALCHEMY_DATABASE_URI")
+    def _assemble_test_db_connection(cls, v: str, values: dict[str, str]) -> str:
+        return PostgresDsn.build(
+            scheme="postgresql+asyncpg",
+            user=values["TEST_DATABASE_USER"],
+            password=values["TEST_DATABASE_PASSWORD"],
+            host=values["TEST_DATABASE_HOSTNAME"],
+            port=values["TEST_DATABASE_PORT"],
+            path=f"/{values['TEST_DATABASE_DB']}",
+        )
+
+    class Config:
+        env_file = f"{PROJECT_DIR}/.env"
+        case_sensitive = True
+
+
+settings: Settings = Settings()  # type: ignore
